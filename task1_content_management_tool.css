@@ -1,0 +1,448 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  background-color: rgba(248, 216, 181, 0.2);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    font-family: "Open sans",sans-serif;
+    /* color: #000000; */
+  }
+  .navbar{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(240, 220, 203, 0.5);
+    position: sticky;
+    top: 0;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px, 0px;
+}
+.navbar ul li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(103, 67, 19);
+    padding: 8px 25px;
+    transition: all 0.5s ease;
+}
+.navbar ul li a:hover{
+    /* background-color: white; */
+    color: black;
+    box-shadow: 0  0 10px white;
+}
+#home{
+  display: flex;
+  flex-direction: column;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  height: 840px;
+  justify-content: center;
+  align-items: center;
+  color: rgb(103, 67, 19);
+}
+#home::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 900px;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.99;
+  background: url(girl.jpeg) no-repeat center center/cover;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 20%;
+  left: 5%;
+}
+.heading{
+  font-family: century;
+  font-size: 4rem;
+  text-align: center;
+  margin: 20px, 0px;
+  padding: 30px;
+}
+/* theme */
+.theme{
+  width: 400px;
+  height: 300px;
+  /* border: 0.1px solid black; */
+  background-color: rgba(240, 220, 203, 0.5);
+  border-radius: 20px;
+  text-align: center;
+  /* color: rgb(177, 90, 90); */
+  color: rgb(103, 67, 19);
+  padding-top: 30px;
+  margin-top: 30px;
+  
+}
+h6{
+  line-height: 30px;
+  padding-top: 20px;
+}
+header img
+{
+    padding: 0vw;
+    align-items: center;
+    padding-top: 0vw;
+    padding-inline-start: 0vw;
+}
+header h1 
+{ 
+    
+    text-align: left;
+    font-size: 40px;
+    color: black;
+    font-style: italic;
+  
+}
+header h5
+{
+    text-align: left;
+    color: black
+}
+
+header 
+{
+    
+    background-position: 100vw;
+    height: auto;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+    background-attachment: fixed;
+    background-size: auto;
+   
+}
+.parallax {
+    /* The image used */
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .stories{
+    width: 100%;
+    height: 80px;
+    /* border: 0.1px solid black; */
+    text-align: center;
+    padding-top: 50px;
+}
+.row4{
+    width: 90%;
+    height: 700px;
+    /* border: 0.1px solid black; */
+    margin: auto;
+    column-gap: 40px;
+    display: flex;
+    margin-top: 30px;
+}
+.row4_c1{
+    width: 33.33%;
+    height: 700px;
+    /* border: 0.1px solid black; */
+    background-color: white;
+}
+.row4_c1 img{
+    width: 390px;
+    height: 390px;
+    margin-top: 15px;
+    margin-left: 10px;
+
+}
+.row4_c1 h3{
+  padding-top: 50px;
+  padding-left: 70px;
+  
+}
+.row4_c1 h5{
+    padding-top: 35px;
+    text-align: center;
+    cursor: pointer;
+}
+.row4_c1 p{
+    padding-top: 60px;
+    padding-left: 10px;
+    text-align: center;
+    
+}
+
+.row4_c2{
+    width: 33.33%;
+    height: 700px;
+    /* border: 0.1px solid black; */
+    background-color: white;
+}
+.row4_c2 img{
+    width: 390px;
+    height: 390px;
+    margin-top: 15px;
+    margin-left: 10px;
+
+}
+.row4_c2 h3{
+  padding: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.row4_c2 h5{
+    padding: auto;
+    padding-top: 60px;
+    cursor: pointer;
+    text-align: center;
+      
+}
+.row4_c2 p{
+     padding: auto;
+      text-align: center;
+      padding-top: 60px;
+      
+  }
+.row4_c3{
+    width: 33.33%;
+    height: 700px;
+    /* border: 0.1px solid black; */
+    background-color: white;
+}
+.row4_c3 img{
+    width: 390px;
+    height: 390px;
+    margin-top: 15px;
+    margin-left: 10px;
+
+}
+.row4_c3 h3{
+    padding-top: 40px;
+    padding-left: 0px;
+    text-align: center;
+    
+  }
+  .row4_c3 h5{
+      padding-top: 15px;
+      padding-left: 20px;
+      text-align: center;
+      cursor: pointer;
+  }
+  .row4_c3 p{
+      padding-top: 60px;
+      padding-left: 10px;
+      text-align: center;
+      
+  }
+  .row5{
+    width: 95%;
+    height: 300px;
+    /* border: 0.1px solid cadetblue; */
+    column-gap: 20px;
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    
+  }
+  .c11{
+    width: 25%;
+    height: 300px;
+    /* border: 0.1px solid black; */
+    text-align: center;
+    padding-top: 20px;
+    
+  }
+  .c11 img{
+    width: 80px;
+    height: 80px;
+    background-color: #eaede8;
+    /* border: 0.1px solid black;   */
+  }
+  .c11 h5{
+   padding-top: 30px;
+  }
+  .c11 h3{
+    padding-top: 30px;
+    cursor: pointer;
+   }
+   .c11 p{
+    padding-top: 30px;
+   }
+  .c22{
+    width: 25%;
+    height: 300px;
+    /* border: 0.1px solid black; */
+    text-align: center;
+    padding-top: 20px;
+  }
+  .c22 img{
+    width: 80px;
+    height: 80px;
+    /* border: 0.1px solid black;   */
+  }
+  .c22 h5{
+   padding-top: 30px;
+  }
+  .c22 h3{
+    padding-top: 30px;
+    cursor: pointer;
+   }
+   .c22 p{
+    padding-top: 30px;
+   }
+  .c33{
+    width: 25%;
+    height: 300px;
+    /* border: 0.1px solid black; */
+    text-align: center ;
+    padding-top: 20px;
+  }
+  .c33 img{
+    width: 80px;
+    height: 80px;
+    /* border: 0.1px solid black;   */
+  }
+  .c33 h5{
+   padding-top: 30px;
+  }
+  .c33 h3{
+    padding-top: 30px;
+    cursor: pointer;
+   }
+   .c33 p{
+    padding-top: 30px;
+   }
+  .c44{
+    width: 25%;
+    height: 300px;
+    /* border: 0.1px solid black; */
+    text-align: center;
+    padding-top: 20px;
+  }
+  .c44 img{
+    width: 80px;
+    height: 80px;
+    /* border: 0.1px solid black;   */
+  }
+  .c44 h5{
+   padding-top: 30px;
+  }
+  .c44 h3{
+    padding-top: 30px;
+    cursor: pointer;
+   }
+   .c44 p{
+    padding-top: 30px;
+}
+
+  /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+  @media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+  }
+  .container{
+   
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 15px;
+    width: auto;
+    /* background-color: #f2f2f2; */
+    padding: 0px 15px 10px 15px;
+    border: 2px solid lightgray;
+    border-radius: 10px 10px;
+    box-shadow: 5px 5px 15px 5px black;
+}
+nav 
+ {
+    height: auto;
+    width: 100vw;
+   
+    overflow: hidden; 
+    min-width: 600px auto;
+    display: flex;
+    align-items: center;
+    margin: 0vw auto;
+
+}
+nav  a{
+
+    position: relative;
+    text-decoration: none;
+    font-family: 'poppins',sans-serif;
+    color: #a0a0a0;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
+ nav a:after
+ {
+    content: "";
+    position: absolute;
+    background-color: rgb(97, 59, 8);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: 10px;
+    transition: 0.3s;
+}
+nav a:hover
+{
+    color: #fff;
+}
+nav a:hover:after{
+    width: 100%;
+}
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+
+    /* CSS for styling the content management tool */
+    .editor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+      }
+  
+      .editor input[type="text"],
+      .editor textarea {
+        margin-bottom: 10px;
+        width: 300px;
+        padding: 5px;
+      }
+  
+      .editor button {
+        padding: 5px 10px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+  
+      .preview {
+        margin-top: 20px;
+      }
